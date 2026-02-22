@@ -192,27 +192,27 @@ End User (Browser)
 
 <pre>
 iot-hyperlocal-weather-aqi-dashboard/
-├── backend/        # API + ML inference (Render)
-│   ├── model/      # Trained ML models
+├── backend/        
+│   ├── model/      
 │   ├── app.py
 │   ├── requirements.txt
 │   └── README.md
 │
-├── frontend/       # Web dashboard (Vercel)
+├── frontend/       
 │   ├── index.html
 │   ├── style.css
 │   ├── script.js
 │   └── README.md
 │
-├── docs/           # Academic documentation
+├── docs/         
 │   ├── report/
 │   ├── research_paper/
 │   ├── ESP32_Hyperlocal_Weather_ML.pptx
 │   └── abstract/
 │
-├── hardware/       # ESP32 & sensor code
+├── hardware/       
 ├── .gitignore
-└── README.md       # This file
+└── README.md       
 </pre>
 
 <hr/>
